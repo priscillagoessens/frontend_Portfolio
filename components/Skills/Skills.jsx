@@ -8,8 +8,8 @@ import figma from '@/public/assets/img/figma.webp'
 import html from '@/public/assets/img/html.webp'
 import git from '@/public/assets/img/github-black.webp'
 import canva from '@/public/assets/img/canva.webp'
-import tailwind from '@/public/assets/img/tailwindcss.svg'
-import wordpress from '@/public/assets/img/WordPress-black.png'
+import tailwind from '@/public/assets/img/tailwindcss.webp'
+import wordpress from '@/public/assets/img/WordPress-black.webp'
 import Separator from '../Separator/Separator';
 import SeparatorRight from '../Separator/SeparatorTriangle';
 
