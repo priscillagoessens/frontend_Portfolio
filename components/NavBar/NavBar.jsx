@@ -43,7 +43,7 @@ export default function Nav() {
                         <Link href="#skills">Compétences</Link>
                     </li>
                     <li className='navigation-section-container-nav-wrapper_link ' onClick={closeMenu}>
-                        <Link href="#contact" className='navigation-section-container-nav-wrapper_link-contact'><FontAwesomeIcon icon={faEnvelope} /></Link>
+                        <Link href="#contact" className='navigation-section-container-nav-wrapper_link-contact' aria-label="contact"><FontAwesomeIcon icon={faEnvelope} /></Link>
                     </li>
                 </ul>
                         

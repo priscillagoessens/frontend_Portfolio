@@ -10,10 +10,9 @@ export default function Footer() {
     <div className='footer-section'>
         <div className='footer-section-container'>
           <Logo source={logoBlack} className='footer-section-container-logo'/>
-          <Link href="#header" className='footer-section-container-toTop'>
+          <Link href="#header" className='footer-section-container-toTop' aria-label="return top">
             <FontAwesomeIcon icon={faAngleUp} />
           </Link>
-          {/* <p>Copyright All Right Reserved 2024 Priscilla Goessens</p> */}
         </div>
     </div>
   )
