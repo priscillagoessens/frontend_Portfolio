@@ -70,6 +70,9 @@
           justify-content: center;
           align-items: center;
           font-family: raleway;
+          &:hover{
+            font-family: 'Raleway-semiBold';
+          }
           @media (min-width: 320px) and (max-width: 425px) {
             width: inherit;
             font-size: 0.75rem;
