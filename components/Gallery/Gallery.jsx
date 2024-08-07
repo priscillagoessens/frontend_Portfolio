@@ -30,7 +30,7 @@ export default function Gallery() {
   useEffect(() => {
     const fetchProjets = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/projets');
+        const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/projets`);
         if (!response.ok) {
           throw new Error('Erreur lors de la récupération des projets');
         }
