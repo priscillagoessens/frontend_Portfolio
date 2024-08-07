@@ -2,9 +2,6 @@
 import React, { useState } from 'react';
 import './_Form.scss';
 import Button from '../Button/Button';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLocationDot,faAt} from '@fortawesome/free-solid-svg-icons'
-import Link from 'next/link'
 
 export default function Form() {
   const [status, setStatus] = useState(null);
@@ -18,7 +15,7 @@ export default function Form() {
           const myForm = event.target;
           const formData = new FormData(myForm);
 
-          const res = await fetch('/__forms.html', {
+          const res = await fetch('/', {
               method: 'POST',
               headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
               body: new URLSearchParams(formData).toString()
@@ -50,7 +47,8 @@ export default function Form() {
           <form 
             className="section-contact_container-form-wrapper" 
             name="contact" 
-            onSubmit={handleFormSubmit}
+            onSubmit={handleFormSubmit} 
+            data-netlify="true"
           >
             <input type="hidden" name="form-name" value="contact" />
             <div className="section-contact_container-form-wrapper-group">
