@@ -1,0 +1,27 @@
+.footer-section{
+    background: #f8fafc;
+    position: relative;
+    background: #F0EAF0;
+    &-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        &-logo{
+            height: 150px;
+            width: auto;
+            @media (min-width: 320px) and (max-width: 768px) {
+                height: 100px;
+              }
+        }
+        &-toTop{
+            right: 2%;
+            background: #EEC8D9;
+            position: absolute;
+            border-radius: 50%;
+            padding: 20px;
+            font-family: 'Raleway-bold';
+            color: #651F3F;
+        }
+    }
+}
