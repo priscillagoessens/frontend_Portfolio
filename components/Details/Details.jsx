@@ -10,10 +10,13 @@ export default function Details({sectionStyle, titleStyle, contentStyle, iconCon
           <h2 className='title'>A propos de moi</h2>
         </div>
         <p className={contentStyle}>
-        Développeuse front-end basée dans la métropole Lilloise, passionnée par la création web. 
-        J'utilise <strong>HTML</strong>, <strong>CSS</strong>, <strong>Sass</strong> et <strong>JavaScript</strong> pour concevoir des interfaces esthétiques et fonctionnelles. J'utilise des technologies modernes comme <strong>React</strong>, <strong>Redux</strong>, <strong>Next.js</strong>, et <strong>Tailwind</strong>, garantissant des performances optimales et une bonne maintenabilité des applications.
-        J'ai également des connaissances avec les CMS, notament <strong>Wordpress</strong> (<strong>WooCommerce</strong>) ou j'ai pu participer a la personnalisation de themes.
-        <br/>Je recherche activement des missions entant que salarié indépendant pour collaborer avec des entreprises dynamiques et des entrepreneurs ambitieux. Si vous avez un projet en tête ou si vous souhaitez simplement discuter de vos idées, n'hésitez pas à me contacter. Ensemble, nous pouvons donner vie à vos projets web ! ✨
+
+        Bonjour, je suis Priscilla Goessens, développeuse front-end basée dans la métropole lilloise. Je me passionne pour la création de sites web qui allient esthétisme et fonctionnalité. <br/>
+        Grâce à mes compétences en <strong>HTML</strong>, <strong>CSS</strong>, <strong>Sass</strong> et <strong>JavaScript</strong>, je conçois des interfaces qui sont à la fois attractives et intuitives.
+
+        J'utilise des technologies modernes comme <strong>React</strong>, <strong>Redux</strong>, <strong>Next.js</strong> et <strong>Tailwind</strong> pour développer des applications performantes et maintenables. J'ai également une solide expérience avec <strong>WordPress</strong> et <strong>WooCommerce</strong>, où j'ai pu personnaliser des solutions adaptées aux besoins de mes clients.
+        <br/>
+        Je suis actuellement à la recherche de nouvelles opportunités en tant que salariée indépendante. Si vous avez un projet en tête ou souhaitez discuter de vos idées, je serais ravie d'échanger avec vous. Ensemble, nous pouvons donner vie à vos projets web ! ✨
         </p>
         <div className={iconContainerStyle}>
         <Button link="Priscilla_Goessens_CV.pdf">

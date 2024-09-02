@@ -21,6 +21,7 @@
             background-color: #eec8d9a6;
             border-radius: 5px;
             @media (min-width: 320px) and (max-width: 768px) {
+                border-radius: 0 0 5px 5px;
                 flex-direction: column;
                 position: fixed;
                 right: 0;
@@ -37,6 +38,7 @@
                 @media (min-width: 320px) and (max-width: 768px) {
                     background: rgb(198 161 212);
                     height: 45vh;
+                    position: absolute;
                 }
             }
             &_link{

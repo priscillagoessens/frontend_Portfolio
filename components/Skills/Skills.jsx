@@ -39,7 +39,7 @@ export default function Skills() {
                 </div>
               </div>
               <div className='skills-section-container-list-skill'>
-                <h3>Soft Skils</h3>
+                <h3>Soft Skills</h3>
                 <div className='skills-section-container-list-skill-wrapper'>
                   <ul>
                     <li>Communication</li>

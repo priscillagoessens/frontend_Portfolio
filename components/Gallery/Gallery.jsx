@@ -35,21 +35,17 @@ export default function Gallery() {
           throw new Error('Erreur lors de la récupération des projets');
         }
         const data = await response.json();
-        console.log('Données reçues:', data); // Vérifiez la structure des données ici
         if (Array.isArray(data)) {
           setProjets(data);
         } else {
-          console.error('Les données reçues ne sont pas un tableau.');
           setError('Erreur lors de la récupération des projets');
         }
       } catch (err) {
-        console.error('Erreur lors de la récupération des projets :', err);
         setError('Erreur lors de la récupération des projets');
       } finally {
         setIsLoading(false);
       }
     };
-  
     fetchProjets();
   }, []);
 
