@@ -6,7 +6,7 @@
     &-container{
         flex-wrap: wrap-reverse;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
         display: flex;
         column-gap: 60px;
@@ -61,6 +61,8 @@
                 height: 300px;
                 object-fit: cover;
                 border-radius: 166px;
+                box-shadow: 60px -52px #f0eaf0;
+
                 @media (min-width: 320px) and (max-width: 768px) {
                     height: 120px;
                     width: auto;
