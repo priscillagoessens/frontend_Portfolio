@@ -18,7 +18,7 @@ export default function Details({sectionStyle, titleStyle, contentStyle, iconCon
         Je suis actuellement à la recherche de <strong>nouvelles opportunités</strong>, que ce soit en tant que salariée ou indépendante. Si vous avez un projet en tête ou souhaitez échanger autour de vos idées, je serais ravie de collaborer avec vous. <strong>Ensemble, donnons vie à vos projets web !</strong>
         </p>
         <div className={iconContainerStyle}>
-        <Button link="Priscilla_Goessens_CV.pdf">
+        <Button link="Priscilla_Goessens_CV.png">
           Mon CV (pdf)
         </Button>
           <Link href="https://github.com/priscillagoessens" target="_blank">
